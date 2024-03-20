@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TNEDICCA Test suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="To verify login functionality(failed)">
+    <classes>
+      <class name="Test_case.To_verify_Home_page">
+        <methods>
+          <include name="teardown"/>
+          <include name="Homepage"/>
+          <include name="lunchbrowser"/>
+        </methods>
+      </class> <!-- Test_case.To_verify_Home_page -->
+      <class name="Test_case.Login_with_invalid_credential">
+        <methods>
+          <include name="teardown"/>
+          <include name="Invalid_inputs"/>
+          <include name="lunchbrowser"/>
+        </methods>
+      </class> <!-- Test_case.Login_with_invalid_credential -->
+    </classes>
+  </test> <!-- To verify login functionality(failed) -->
+</suite> <!-- Failed suite [TNEDICCA Test suit] -->
