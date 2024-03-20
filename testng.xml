@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Common_function.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="Test_case.To_Verify_login_page"/>
+     <!--<class name="Test_case.Login_with_invalid_credential"/>-->
+     <!--<class name="Test_case.To_verify_Home_page"/>-->
+      <!--<class name="Test_case.To_Verify_Edit_Client"/>-->
+      <!--<class name="Test_case.To_Verify_Gateway_Control"/>-->
+      <!--<class name="Test_case.To_verify_failover_data_sync"/>-->
+      <!--<class name="Test_case.To_Verify_Application_Monitoring"/>-->
+      <!--<class name="Test_case.To_verify_GatewayMonitoring"/>-->
+      <!--<class name="Test_case.To_verify_HealthCheck"/>-->
+   <!--<class name="Test_case.To_verify_requestid"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
